@@ -27,6 +27,13 @@ minimize. See an example @ChannelDetails@ JSON object
     }
   ```
 
+Begin paginated
+
+blang[ruby].
+  <%= partial partial_version('types/_paginated_result'), indent: 2, skip_first_indent: true %>
+
+End Paginated
+
 h3(#channel-status). ChannelDetails.ChannelStatus
 
 @ChannelStatus@ is contained within the "@ChannelDetails@":#channel-details object, and optionally contains an "Occupancy":#occupancy object.
